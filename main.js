@@ -4,11 +4,12 @@ const { createApp } = Vue;
 
 const myApp =
     createApp({
-        data() 
+        data() {
             return {
-            title: 'ciao',
-            img: 'https://picsum.photos/200',
+                title: 'ciao',
+                img: 'https://picsum.photos/200',
 
+            }
         }
     });
 
