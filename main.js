@@ -6,7 +6,8 @@ const myApp =
     createApp({
         data() {
             return {
-                title: 'ciao'
+                title: 'ciao',
+                img: 'https://picsum.photos/200'
             };
         },
     });
