@@ -11,8 +11,32 @@
 <body>
 
     <div id="app" v-cloak>
-        <h1>{{ title }}</h1>
+        <h1 :class="CssData">{{ title }}</h1>
         <img :src="img" alt="">
+
+        <!-- Commented part related to today's lesson -->
+
+        <!--<input type="text" :v-model="title">
+        <div v-if='!ifTrue()'>V-if is working</div>
+
+        <div v-if="type === 'A'">I'm A</div>
+        <div v-else-if="type === 'B'">I'm B</div>
+        <div v-else-if="type === 'C'">I'm C</div>
+
+
+        <select name="" id="" v-model='type'>
+            <option value="A">I'm A</option>
+            <option value="B">I'm B</option>
+            <option value="C">I'm C</option>
+        </select>
+        <ul>
+            <li v-for="friend in friends">{{friend}}</li>
+        </ul>
+        <div v-for="(amico,index) in friendsObj" v-show="index === 1">
+            <div>{{amico.naMe}}{{amico.age}}</div>
+        </div>
+        <div v-for="n in 10">{{ n }}</div> -->
+
     </div>
 
     <!-- Vue Js -->
